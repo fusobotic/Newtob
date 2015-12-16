@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>{{ page.title }}</title>
+      <meta name="viewport" content="width=device-width">
+      <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="/css/main.css">
+      <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  </head>
+  <body>
+  <div class="background"></div>
+
+
+
+
+
+    {{ content }}
+  </body>
+  <script>
+    $(function() {
+      var workon = true;
+      var playon = true;
+      var today = new Date();
+      var cHour = today.getHours();
+
+      //turn this back on when school is back
+      /*if(cHour <= 17){
+        $(".play").hide();
+        $(".worktoggle").toggleClass("pressed");
+        workon = true;
+        playon = false;
+      } else {
+        $(".work").hide();
+        $(".playtoggle").toggleClass("pressed");
+        workon = false;
+        playon = true;
+      }*/
+
+
+      $(".worktoggle").click(function(event) {
+        event.preventDefault();
+        $(".worktoggle").toggleClass("pressed");
+        $(".work").toggle( 0, function(){
+          workon = !workon;
+        });
+      });
+
+      $(".playtoggle").click(function(event) {
+        event.preventDefault();
+        $(".playtoggle").toggleClass("pressed");
+        $(".play").toggle( 0, function(){
+          playon = !playon;
+        });
+      });
+
+    });
+  </script>
+</html>

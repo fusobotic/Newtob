@@ -1,0 +1,11 @@
+name: Newtob
+email: cmcoppoletti@gmail.com
+description: > # a snarky new tab page
+baseurl: "/Newtob" # the subpath of your site, e.g. /blog/
+url: "http://fusobotic.github.io/Newtob/" # the base hostname & protocol for your site
+twitter_username: fusobotic
+github_username:  fusobotic
+
+markdown: redcarpet
+highlighter: pygments # or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]
