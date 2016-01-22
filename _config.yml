@@ -1,7 +1,7 @@
-name: Newtob
+name: JekyllComic
 email: cmcoppoletti@gmail.com
-description: > # a snarky new tab page
-baseurl: "/Newtob" # the subpath of your site, e.g. /blog/
+description: > # a sublime jekyll theme for web comics
+baseurl: "/JekyllComic" # the subpath of your site, e.g. /blog/
 url: "http://fusobotic.github.io/" # the base hostname & protocol for your site
 twitter_username: fusobotic
 github_username:  fusobotic
