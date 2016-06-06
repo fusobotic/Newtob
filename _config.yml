@@ -7,5 +7,5 @@ twitter_username: fusobotic
 github_username:  fusobotic
 
 markdown: redcarpet
-highlighter: pygments # or rouge or null
+highlighter: rouge # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
