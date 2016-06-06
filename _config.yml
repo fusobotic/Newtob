@@ -1,7 +1,7 @@
 name: Newtob
 email: cmcoppoletti@gmail.com
 description: > # a snarky new tab page
-baseurl: "/Newtob" # the subpath of your site, e.g. /blog/
+baseurl: "/Newtob/" # the subpath of your site, e.g. /blog/
 url: "http://coppoletti.co/" # the base hostname & protocol for your site
 twitter_username: fusobotic
 github_username:  fusobotic
